@@ -61,6 +61,7 @@
     <Compile Include="SolutionDay5Tests.cs" />
     <Compile Include="SolutionDay6FastTests.cs" />
     <Compile Include="SolutionDay6Tests.cs" />
+    <Compile Include="SolutionDay7Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -5,9 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-using AdventOfCode2021.Day5;
-
-namespace AdventOfCode2021
+namespace AdventOfCode2021.Day5
 {
 	public class SolutionDay5
 	{

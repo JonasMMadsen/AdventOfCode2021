@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using AdventOfCode2021.Day6;
+
 namespace AdventOfCode2021.Tests
 {
 	[TestClass()]

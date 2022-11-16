@@ -4,9 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using AdventOfCode2021.Day4;
-
-namespace AdventOfCode2021
+namespace AdventOfCode2021.Day4
 {
 	/// <summary>
 	/// A board must have an entire row or column of numbers that have been drawn from the pool to win.

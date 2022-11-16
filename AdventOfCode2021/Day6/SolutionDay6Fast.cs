@@ -7,9 +7,7 @@ using System.Threading.Tasks;
 using System.Diagnostics;
 using System.Threading;
 
-using AdventOfCode2021.Day6;
-
-namespace AdventOfCode2021
+namespace AdventOfCode2021.Day6
 {
 	public class SolutionDay6Fast
 	{

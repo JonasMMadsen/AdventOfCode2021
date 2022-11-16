@@ -4,6 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using AdventOfCode2021.Day1;
+using AdventOfCode2021.Day2;
+using AdventOfCode2021.Day3;
+using AdventOfCode2021.Day4;
+using AdventOfCode2021.Day5;
+using AdventOfCode2021.Day6;
+using AdventOfCode2021.Day7;
+
 namespace AdventOfCode2021
 {
 	/// <summary>
@@ -13,7 +21,7 @@ namespace AdventOfCode2021
 	{
 		static void Main(string[] args)
 		{
-			int day = 6;
+			int day = 7;
 			int part = 2;
 			Console.WriteLine(String.Format("Output for solution day {0} - part {1}: {2}", day, part, PickSolution(day, part)));
 		}
@@ -54,6 +62,11 @@ namespace AdventOfCode2021
 						//return new SolutionDay6().CalculateLanternFish(256);
 						return new SolutionDay6Fast().CalculateLanternFish(256);
 						//return new SolutionDay6Fast().CalculateLanternFish(2);
+				case 7:
+					if (part == 1)
+						return new SolutionDay7().DetermineOptimalCrabFuelCost(FuelConsumptionType.Linear);
+					else
+						return new SolutionDay7().DetermineOptimalCrabFuelCost(FuelConsumptionType.Exponential);
 				default:
 					throw new Exception("No solution exists for day: " + day);
 			}
