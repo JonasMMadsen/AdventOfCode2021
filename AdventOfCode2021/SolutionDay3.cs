@@ -17,7 +17,7 @@ namespace AdventOfCode2021
 		/// Perform binary diagnostic by extracting gamma rate and epsilon rate from binary input (in text form).
 		/// </summary>
 		/// <returns>Calculated power consumption found in binary diagnostic.</returns>
-		public long BinaryDiagnosticPowerConsumption()
+		public int BinaryDiagnosticPowerConsumption()
 		{
 			string inputData = Util.ReadInput(day);
 			string[] lines = inputData.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
@@ -94,7 +94,7 @@ namespace AdventOfCode2021
 		#endregion
 
 		#region Part 2
-		public long BinaryDiagnosticLifeSupportRating()
+		public int BinaryDiagnosticLifeSupportRating()
 		{
 			string inputData = Util.ReadInput(day);
 			string[] lines = inputData.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);

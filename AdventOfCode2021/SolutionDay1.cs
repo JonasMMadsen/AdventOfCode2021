@@ -12,7 +12,7 @@ namespace AdventOfCode2021
 
 		public SolutionDay1() {	}
 
-		public string CountIncreasesInDepth()
+		public int CountIncreasesInDepth()
 		{
 			string inputData = Util.ReadInput(day);
 			string[] lines = inputData.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
@@ -27,10 +27,10 @@ namespace AdventOfCode2021
 				previous = current;
 			}
 
-			return count.ToString();
+			return count;
 		}
 
-		public string CountIncreasesInSlidingDepthWindow()
+		public int CountIncreasesInSlidingDepthWindow()
 		{
 			string inputData = Util.ReadInput(day);
 			List<int> data = inputData?.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries)
@@ -47,7 +47,7 @@ namespace AdventOfCode2021
 				previous = current;
 			}
 
-			return count.ToString();
+			return count;
 		}
 
 		private int GetWindow3Sum(int index, List<int> data)
