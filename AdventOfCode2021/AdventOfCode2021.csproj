@@ -48,6 +48,7 @@
     <Compile Include="Day5\Line.cs" />
     <Compile Include="Day5\LineDirection.cs" />
     <Compile Include="Day6\LanternFish.cs" />
+    <Compile Include="Day6\SolutionDay6Segmented.cs" />
     <Compile Include="Day7\FuelConsumptionType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

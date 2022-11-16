@@ -57,11 +57,9 @@ namespace AdventOfCode2021
 						throw new NotImplementedException();
 				case 6:
 					if (part == 1)
-						return new SolutionDay6().CalculateLanternFish(80);
+						return new SolutionDay6Segmented().CalculateLanternFish(80);
 					else
-						//return new SolutionDay6().CalculateLanternFish(256);
-						return new SolutionDay6Fast().CalculateLanternFish(256);
-						//return new SolutionDay6Fast().CalculateLanternFish(2);
+						return new SolutionDay6Segmented().CalculateLanternFish(256);
 				case 7:
 					if (part == 1)
 						return new SolutionDay7().DetermineOptimalCrabFuelCost(FuelConsumptionType.Linear);

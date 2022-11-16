@@ -57,6 +57,7 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="SolutionDay6SegmentedTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SolutionDay5Tests.cs" />
     <Compile Include="SolutionDay6FastTests.cs" />
